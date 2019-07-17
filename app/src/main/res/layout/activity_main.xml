@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    android:id="@+id/mylayout"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:src="@drawable/img" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:layout_margin="2dp"
+            android:background="#AB0091EA"
+            android:soundEffectsEnabled="false"
+            android:text="@string/one"
+            android:textColor="#FCFFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            tools:layout_editor_absoluteX="216dp"
+            tools:layout_editor_absoluteY="281dp" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#BAD80E0E"
+            android:soundEffectsEnabled="false"
+            android:text="@string/two"
+            android:textColor="#FCFFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="216dp"
+            tools:layout_editor_absoluteY="281dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:background="#D5970A48"
+            android:soundEffectsEnabled="false"
+            android:text="@string/three"
+            android:textColor="#FCFFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="216dp"
+            tools:layout_editor_absoluteY="281dp" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:background="#C81275B9"
+            android:soundEffectsEnabled="false"
+            android:text="@string/four"
+            android:textColor="#FCFFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="216dp"
+            tools:layout_editor_absoluteY="281dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:background="#DC0E1B5A"
+            android:soundEffectsEnabled="false"
+            android:text="@string/five"
+            android:textColor="#FCFFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="216dp"
+            tools:layout_editor_absoluteY="281dp" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:background="#E4042942"
+            android:soundEffectsEnabled="false"
+            android:text="@string/six"
+            android:textColor="#FCFFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="216dp"
+            tools:layout_editor_absoluteY="281dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:layout_weight="1"
+            android:background="#D0489616"
+            android:layout_margin="2dp"
+            android:soundEffectsEnabled="false"
+            android:text="@string/seven"
+            android:textColor="#FCFFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="216dp"
+            tools:layout_editor_absoluteY="281dp" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:layout_weight="1"
+            android:background="#C807853A"
+            android:layout_margin="2dp"
+            android:soundEffectsEnabled="false"
+            android:text="@string/eight"
+            android:textColor="#FCFFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="216dp"
+            tools:layout_editor_absoluteY="281dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#AE177E41"
+            android:soundEffectsEnabled="false"
+            android:text="@string/nine"
+            android:textColor="#FCFFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="216dp"
+            tools:layout_editor_absoluteY="281dp" />
+
+        <Button
+            android:id="@+id/btn10"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#C3FFAB00"
+            android:soundEffectsEnabled="false"
+            android:text="@string/ten"
+            android:textColor="#FCFFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="216dp"
+            tools:layout_editor_absoluteY="281dp" />
+
+
+    </LinearLayout>
+</LinearLayout>
